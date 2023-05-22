@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294685297051",
+    "project_id": "uni-project-180cd",
+    "storage_bucket": "uni-project-180cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294685297051:android:6196c37ed11b98dbe4b93e",
+        "android_client_info": {
+          "package_name": "com.example.uni_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294685297051-ph5ju2n7cia5orp50n6dqjgtt2qmqlvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc1uiEkAniIkvzmQeaJrIE2qIk24TiN_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294685297051-c8tefu7k3gjdar3o2gtcrtu66q66ipet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
