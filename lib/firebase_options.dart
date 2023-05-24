@@ -23,15 +23,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -50,19 +44,40 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyASnJ-2NwuymibAtQCyVxzK0pHv9_uKIhw',
-    appId: '1:881560820794:web:6b444dff20eead959fa903',
-    messagingSenderId: '881560820794',
-    projectId: 'reddit-4ed9e',
-    authDomain: 'reddit-4ed9e.firebaseapp.com',
-    storageBucket: 'reddit-4ed9e.appspot.com',
+    apiKey: 'AIzaSyBelpXQJTjCQLDFh2_Sws6TxH8r_7uC4V0',
+    appId: '1:294685297051:web:0cdcfb4722b8e342e4b93e',
+    messagingSenderId: '294685297051',
+    projectId: 'uni-project-180cd',
+    authDomain: 'uni-project-180cd.firebaseapp.com',
+    storageBucket: 'uni-project-180cd.appspot.com',
+    measurementId: 'G-5RJQ9G4110',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCa7zlnP6qE7LHMj6wjYr3JThe29FbYRi8',
-    appId: '1:346097414736:android:3ccc1acdba7de94c529755',
-    messagingSenderId: '881560820794',
-    projectId: 'reddit-4ed9e',
-    storageBucket: 'reddit-4ed9e.appspot.com',
+    apiKey: 'AIzaSyCc1uiEkAniIkvzmQeaJrIE2qIk24TiN_c',
+    appId: '1:294685297051:android:6196c37ed11b98dbe4b93e',
+    messagingSenderId: '294685297051',
+    projectId: 'uni-project-180cd',
+    storageBucket: 'uni-project-180cd.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyCEqzM17U9t6WdDe8XQH4yqEO2vy46jfXY',
+    appId: '1:294685297051:ios:efe015600ba03fdfe4b93e',
+    messagingSenderId: '294685297051',
+    projectId: 'uni-project-180cd',
+    storageBucket: 'uni-project-180cd.appspot.com',
+    iosClientId: '294685297051-39j1k7khf322sl4etm8i1l44653ob7ra.apps.googleusercontent.com',
+    iosBundleId: 'com.example.uniproject',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyCEqzM17U9t6WdDe8XQH4yqEO2vy46jfXY',
+    appId: '1:294685297051:ios:1790d3a6f7cb8deae4b93e',
+    messagingSenderId: '294685297051',
+    projectId: 'uni-project-180cd',
+    storageBucket: 'uni-project-180cd.appspot.com',
+    iosClientId: '294685297051-uknkfs27h0o56tbkau9oit930ar72p6p.apps.googleusercontent.com',
+    iosBundleId: 'com.example.uniproject.RunnerTests',
   );
 }
